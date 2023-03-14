@@ -2,6 +2,8 @@
 Change input parameter to GET_CH_Charts Macro (Singles or Albums)
 *****************************************************************************************************************/
 
+/* Update March 14 */
+
 proc delete data=out.CH_albums_charts out.CH_singles_charts CH_albums_charts CH_singles_charts; run;
 
 %Global NextURL;
